@@ -23,7 +23,7 @@ struct ContentView: View {
                     ForEach(history.servings) { serving in
                         HStack {
                             VStack(alignment: .leading) {
-                                Text(serving.name)
+                                Text(serving.name + "C2")
                                     .font(.headline)
                                 Text(serving.description)
                                     .font(.caption)
