@@ -42,7 +42,7 @@ struct MenuView: View {
                                 .buttonStyle(.plain)
                             }
                         } header: {
-                            Text(section.name)
+                            Text(section.name + "C1")
                                 .font(.system(.title, design: .serif))
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding([.top, .bottom, .trailing], 5)
